@@ -14,6 +14,11 @@
 		57E4F9AD1AFF82FA003F4ABB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E4F9AC1AFF82FA003F4ABB /* Images.xcassets */; };
 		57E4F9B01AFF82FA003F4ABB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57E4F9AE1AFF82FA003F4ABB /* LaunchScreen.xib */; };
 		57E4F9BC1AFF82FB003F4ABB /* UBISEcallWT01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E4F9BB1AFF82FB003F4ABB /* UBISEcallWT01Tests.m */; };
+		57EC0D6D1AFF89EB003272E4 /* CAllServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EC0D6C1AFF89EB003272E4 /* CAllServer.m */; };
+		57EC0D701AFF89FA003272E4 /* DwfmsSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EC0D6F1AFF89FA003272E4 /* DwfmsSegue.m */; };
+		57EC0D731AFF8A09003272E4 /* IdentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EC0D721AFF8A09003272E4 /* IdentViewController.m */; };
+		57EC0D761AFF8B1F003272E4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EC0D751AFF8B1F003272E4 /* icon.png */; };
+		57EC0D781AFF8B2F003272E4 /* ic_water.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EC0D771AFF8B2F003272E4 /* ic_water.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,14 @@
 		57E4F9B51AFF82FB003F4ABB /* UBISEcallWT01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UBISEcallWT01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E4F9BA1AFF82FB003F4ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57E4F9BB1AFF82FB003F4ABB /* UBISEcallWT01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UBISEcallWT01Tests.m; sourceTree = "<group>"; };
+		57EC0D6B1AFF89E3003272E4 /* CAllServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAllServer.h; sourceTree = "<group>"; };
+		57EC0D6C1AFF89EB003272E4 /* CAllServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAllServer.m; sourceTree = "<group>"; };
+		57EC0D6E1AFF89F3003272E4 /* DwfmsSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DwfmsSegue.h; sourceTree = "<group>"; };
+		57EC0D6F1AFF89FA003272E4 /* DwfmsSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwfmsSegue.m; sourceTree = "<group>"; };
+		57EC0D711AFF8A03003272E4 /* IdentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdentViewController.h; sourceTree = "<group>"; };
+		57EC0D721AFF8A09003272E4 /* IdentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdentViewController.m; sourceTree = "<group>"; };
+		57EC0D751AFF8B1F003272E4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		57EC0D771AFF8B2F003272E4 /* ic_water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_water.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +94,17 @@
 		57E4F99E1AFF82FA003F4ABB /* UBISEcallWT01 */ = {
 			isa = PBXGroup;
 			children = (
+				57EC0D741AFF8B06003272E4 /* image */,
 				57E4F9A31AFF82FA003F4ABB /* AppDelegate.h */,
 				57E4F9A41AFF82FA003F4ABB /* AppDelegate.m */,
 				57E4F9A61AFF82FA003F4ABB /* ViewController.h */,
 				57E4F9A71AFF82FA003F4ABB /* ViewController.m */,
+				57EC0D6B1AFF89E3003272E4 /* CAllServer.h */,
+				57EC0D6C1AFF89EB003272E4 /* CAllServer.m */,
+				57EC0D6E1AFF89F3003272E4 /* DwfmsSegue.h */,
+				57EC0D6F1AFF89FA003272E4 /* DwfmsSegue.m */,
+				57EC0D711AFF8A03003272E4 /* IdentViewController.h */,
+				57EC0D721AFF8A09003272E4 /* IdentViewController.m */,
 				57E4F9A91AFF82FA003F4ABB /* Main.storyboard */,
 				57E4F9AC1AFF82FA003F4ABB /* Images.xcassets */,
 				57E4F9AE1AFF82FA003F4ABB /* LaunchScreen.xib */,
@@ -117,6 +137,15 @@
 				57E4F9BA1AFF82FB003F4ABB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57EC0D741AFF8B06003272E4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				57EC0D771AFF8B2F003272E4 /* ic_water.png */,
+				57EC0D751AFF8B1F003272E4 /* icon.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +229,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				57E4F9AB1AFF82FA003F4ABB /* Main.storyboard in Resources */,
+				57EC0D761AFF8B1F003272E4 /* icon.png in Resources */,
 				57E4F9B01AFF82FA003F4ABB /* LaunchScreen.xib in Resources */,
+				57EC0D781AFF8B2F003272E4 /* ic_water.png in Resources */,
 				57E4F9AD1AFF82FA003F4ABB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				57E4F9A81AFF82FA003F4ABB /* ViewController.m in Sources */,
+				57EC0D731AFF8A09003272E4 /* IdentViewController.m in Sources */,
+				57EC0D701AFF89FA003272E4 /* DwfmsSegue.m in Sources */,
 				57E4F9A51AFF82FA003F4ABB /* AppDelegate.m in Sources */,
+				57EC0D6D1AFF89EB003272E4 /* CAllServer.m in Sources */,
 				57E4F9A21AFF82FA003F4ABB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +452,7 @@
 				57E4F9C11AFF82FB003F4ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57E4F9C21AFF82FB003F4ABB /* Build configuration list for PBXNativeTarget "UBISEcallWT01Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +461,7 @@
 				57E4F9C41AFF82FB003F4ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
