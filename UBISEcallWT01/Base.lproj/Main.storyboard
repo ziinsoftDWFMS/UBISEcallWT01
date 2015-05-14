@@ -30,6 +30,14 @@
                                     <navigationItem title="UBIS Ecall 발신(승강기)" id="DP0-GR-i8Z"/>
                                 </items>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="43" verticalHuggingPriority="43" horizontalCompressionResistancePriority="43" verticalCompressionResistancePriority="43" ambiguous="YES" misplaced="YES" image="ic_water.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zgf-yl-SV3">
+                                <rect key="frame" x="5" y="28" width="43" height="44"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h7A-JX-xyx">
+                                <rect key="frame" x="156" y="134" width="288" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zr7-Gq-C8M">
                                 <rect key="frame" x="156" y="192" width="288" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -40,14 +48,6 @@
                                     <action selector="click:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NQe-2D-Sf0"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h7A-JX-xyx">
-                                <rect key="frame" x="156" y="134" width="288" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="43" verticalHuggingPriority="43" horizontalCompressionResistancePriority="43" verticalCompressionResistancePriority="43" ambiguous="YES" misplaced="YES" image="ic_water.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zgf-yl-SV3">
-                                <rect key="frame" x="5" y="28" width="43" height="44"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -116,6 +116,9 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="43" verticalHuggingPriority="43" horizontalCompressionResistancePriority="43" verticalCompressionResistancePriority="43" ambiguous="YES" misplaced="YES" image="ic_water.png" translatesAutoresizingMaskIntoConstraints="NO" id="9cY-8s-pcY">
+                                <rect key="frame" x="7" y="28" width="43" height="44"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4PZ-92-QY1">
                                 <rect key="frame" x="354" y="233" width="30" height="30"/>
                                 <state key="normal" title="취소">
@@ -125,9 +128,6 @@
                                     <action selector="cancelEvent:" destination="ava-x5-gbS" eventType="touchUpInside" id="TiA-GN-Bdj"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="43" verticalHuggingPriority="43" horizontalCompressionResistancePriority="43" verticalCompressionResistancePriority="43" ambiguous="YES" misplaced="YES" image="ic_water.png" translatesAutoresizingMaskIntoConstraints="NO" id="9cY-8s-pcY">
-                                <rect key="frame" x="7" y="28" width="43" height="44"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -157,6 +157,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ic_water.png" width="513" height="517"/>
+        <image name="ic_water.png" width="446" height="445"/>
     </resources>
 </document>
